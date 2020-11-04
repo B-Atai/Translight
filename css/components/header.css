@@ -1,0 +1,22 @@
+.header__item{
+    background: rgba(0, 91, 193, 0.6);
+}
+
+.header__logo{
+    top: 0;
+    left: 0;
+    padding: 11px 0 11px 40px;
+}
+.header__nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav__menu{
+    display: flex;
+    justify-content: center;
+}
+.nav__link{
+    padding:30px 28px;
+    color: #fff;
+}

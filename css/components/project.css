@@ -1,18 +1,3 @@
-.project__content{
-    padding: 156px 0 70px;
-    align-items: center;
-}
-
-.project__title {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #343434;
-    padding-left: 40px;
-}
-
 .left__items{
     position: relative;
     padding-right: 30px;

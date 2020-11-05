@@ -36,3 +36,7 @@ a,span{
     display: flex;
     flex-wrap: wrap;
 }
+
+.col-6{
+    width: 50%;
+}

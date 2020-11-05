@@ -1,0 +1,67 @@
+.project__content{
+    padding: 156px 0 70px;
+    align-items: center;
+}
+
+.project__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    padding-left: 40px;
+}
+
+.left__items{
+    position: relative;
+    padding-right: 30px;
+}
+
+.olympus__left{
+    min-height: 400px;
+    width: 100%;
+    background-image: url("../../img/olympus__1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.right__items{
+    position: relative;
+}
+
+.olympus__right{
+    min-height: 400px;
+    width: 100%;
+    background-image: url("../../img/olympus__2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.olympus__content{
+    width: 40%;
+    margin:35px 35px;
+    padding: 20px 20px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.olympus__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+.olympus__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #343434;
+}

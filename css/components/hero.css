@@ -1,17 +1,25 @@
 .hero {
-    background-image: url("../hero_img.png");
+    background-image: url("../../img/hero_img.png");
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    z-index: -1;
     width: 100%;
+    min-height: 804px;
     left: 0;
     top: 0;
+    z-index: -2;
+    padding-top: 84px;
 }
 
-.hero__items {
-    margin-top: 84px;
-    padding: 202px 300px 202px 190px;
+.hero__items{
+    padding: 202px 0 0 190px;
+    width: 80%;
+    position: relative;
+    z-index: 10;
+}
+
+.hero__picture{
+    position: absolute;
+    z-index: 0;
 }
 
 .hero__title {

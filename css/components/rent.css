@@ -48,6 +48,7 @@
 .list__items::before{
     content: '';
     position: absolute;
+    background-color: #343434;
     border: 3px solid #343434;
     border-radius: 50%;
     left: -15px;

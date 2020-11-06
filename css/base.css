@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* html{
     scroll-behavior: smooth;
 } */
@@ -58,6 +57,7 @@ a,span{
 }
 
 .decor__items{
+    width: 100%;
     padding: 156px 0 70px;
     align-items: center;
 }

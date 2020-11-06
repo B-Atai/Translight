@@ -154,6 +154,10 @@
     box-sizing: border-box;
 }
 
+.slick-dots{
+    font-size: 0;
+}
+
 .slick-dots button{
     font-size: 0;
 }

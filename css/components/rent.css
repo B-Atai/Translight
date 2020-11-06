@@ -34,10 +34,23 @@
     font-size: 14px;
     line-height: 19px;
     color: #343434;
+    position: relative;
+    padding-bottom: 30px;
 }
 
 .slider__img{
     width: 100%;
     min-height: 250px;
-    /* padding-left: 30px; */
+    padding: 0 30px;
+}
+
+
+.list__items::before{
+    content: '';
+    position: absolute;
+    border: 3px solid #343434;
+    border-radius: 50%;
+    left: -15px;
+    text-align: center;
+    top: 7px;
 }

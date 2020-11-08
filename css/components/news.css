@@ -12,10 +12,6 @@
     background-color: #005BC1;
 }
 
-.main__item{
-    padding-right: 30px;
-}
-
 .main__content{
     position: relative;
 }
@@ -92,7 +88,6 @@
 
 .news__content{
     position: relative;
-    padding-right: 20px;
 }
 
 .news__img{

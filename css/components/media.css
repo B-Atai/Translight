@@ -136,8 +136,6 @@
         padding: 0;
     }
 
-    
-    
     .rent__subtitle{
         font-size: 18px;
     }
@@ -148,5 +146,14 @@
 
     .col-6{
         width: 100%;
+    }
+
+    .top__text{
+        padding: 10px 0;
+        text-align: unset;
+    }
+
+    .col-4{
+        width: 33%;
     }
 }

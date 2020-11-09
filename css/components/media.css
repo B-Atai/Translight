@@ -45,8 +45,7 @@
     }
 }
 
-@media screen and (max-width:900px) {
-
+@media screen and (max-width:960px){
     /* header */
 
     .header__nav{
@@ -73,8 +72,30 @@
     .hero__text{
         width: 100%;
     }
-}
+    
+    .main__item{
+        width: 100%;
+        padding-bottom: 20px;
+    }
 
+    .news__items{
+        width: 100%;
+    }
+
+    .left__item{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__img{
+        height: 100%;
+        width: 50%;
+    }
+
+    .Robe{
+        width: 100%;
+    }
+}
 @media screen and (max-width:860px) {
     .media__row{
         justify-content: center;
@@ -89,5 +110,43 @@
         width: 50%;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .decor__items svg{
+        display: none;
+    }
+
+    .decor__items .decor__title{
+        padding: 0;
+    }
+
+    .decor__block svg{
+        display: none;
+    }
+
+    .decor__block .decor__title{
+        padding: 0;
+    }
+
+    .catalog__content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    
+    .rent__subtitle{
+        font-size: 18px;
+    }
+
+    .list__items::before{
+        display: none;
+    }
+
+    .col-6{
+        width: 100%;
     }
 }

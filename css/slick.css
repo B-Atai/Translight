@@ -161,3 +161,26 @@
 .slick-dots button{
     font-size: 0;
 }
+
+@media screen and (max-width:376px) {
+    .slick-arrow.slick-next,
+    .slick-arrow.slick-prev {
+        background-size: 10px;
+    }
+
+    .slick-arrow.slick-next{
+        right: 31px;
+    }
+
+    .slick-arrow.slick-prev{
+        right: 59px;
+    }
+
+    .slick-arrow{
+        width: 30px;
+        height: 30px;
+    }
+    .rent__right .slick-arrow{
+        top: -50px;
+    }
+}
